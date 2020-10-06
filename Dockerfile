@@ -7,7 +7,7 @@
 
 # scipy/machine learning (tensorflow)
 # https://hub.docker.com/repository/docker/ucsdets/scipy-ml-notebook/tags
-ARG BASE_CONTAINER=ucsdets/scipy-ml-notebook:latest
+ARG BASE_CONTAINER=ucsdets/scipy-ml-notebook:latest 
 
 FROM $BASE_CONTAINER
 
