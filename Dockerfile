@@ -58,4 +58,4 @@ RUN git clone https://github.com/Microsoft/vcpkg.git && \
 COPY run_jupyter.sh /
 RUN chmod 755 /run_jupyter.sh
 
-USER $NB_USER
+# USER $NB_USER
