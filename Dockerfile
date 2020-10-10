@@ -62,7 +62,7 @@ RUN chmod 755 /run_jupyter.sh
 
 
 
-RUN useradd $NB_USER \
+RUN useradd yzhi \
 #     && echo "${NB_USER}:123123" | chpasswd \
     && service ssh start
 
